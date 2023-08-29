@@ -1,0 +1,126 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+#banner {
+	width: 100%;
+}
+
+#logo {
+	width: 30%;
+}
+
+#signInIcon {
+	width: 5%;
+}
+
+#menuIcon {
+	width: 2%;
+}
+
+h1 {
+	font-size: 260%;
+}
+
+h2 {
+	font-size: 200%;
+}
+
+p {
+	font-size: 150%;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.place {
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+#banner2 {
+	width: 90%;
+	border-radius: 20px;
+}
+
+/*******************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner {
+	display: flex;
+}
+
+#banner {
+	position: relative;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2 {
+	position: absolute;
+}
+
+#logo {
+	transform: translate(0, -30%);
+}
+
+#topBanner > div {
+	transform: translate(42%, 60%);
+}
+
+#menuIcon {
+	transform: translate(0, -20%);
+}
+
+h1 {
+	transform: translate(35%, 200%);
+}
+
+#topBanner > h2 {
+	transform: translate(35%, 1000%);
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+h2 {
+	padding: 20px;
+}
+
+#cards {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#navigationMenu {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#middleBanner {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+#middleBanner > img {
+	position: relative;
+}
+
+#middleBanner > div {
+	position: absolute;
+	transform: translate(120%, 0);
+}
+
